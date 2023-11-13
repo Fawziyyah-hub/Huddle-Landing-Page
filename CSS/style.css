@@ -1,0 +1,71 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+body{
+    font-family: 'poppins', 'Open Sans', sans-serif;
+    background-image: url(../IMG/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Violet);
+    margin: 40px;
+}
+main{
+    width: 1440px;
+}
+#image{
+    margin-top: 50px;
+}
+.writeup{
+   position: relative;
+   left: 60%;
+   bottom: 30em;
+}
+h1{
+    width: 20%;
+    color: white;
+    letter-spacing: 1.3px;
+}
+p{
+    width: 30%;
+    color: white;
+    font-size: 15px;
+}
+#btn{
+     width: 9%; 
+     height: 6vh;
+     border-radius: 20px;
+     border: none;
+     color: grey;
+     cursor: pointer;
+     font-size: 15px;
+     box-shadow: 0 4px 8px 0 darkslateblue, 0 6px 11px 0 darkslateblue;
+     font-weight: 400;
+}
+ #btn:hover{
+    background-color: var(--Soft-Magenta);
+    color: white;
+}
+footer{
+    position: relative;
+    left: 75%;
+    bottom: 8em;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+#ig:hover{
+    color: var(--Soft-Magenta);
+}
+#fb:hover{
+    color: var(--Soft-Magenta);
+}
+#tt:hover{
+    color: var(--Soft-Magenta);
+}
+
+@media screen and (max-with: 1440px) {
+    main{
+        width: 1440px;
+    }
+}
